@@ -1,0 +1,26 @@
+name: dhessir-app
+recipe: laravel
+config:
+  webroot: public
+  php: '8.4'
+  via: apache
+  database: mariadb
+  cache: none
+  xdebug: false
+
+services:
+  node:
+    type: node:22
+    build:
+      - npm install
+    scanner: false
+
+tooling:
+  npm:
+    service: node
+  npx:
+    service: node
+  build:
+    service: node
+    description: Compila los estilos (Tailwind) y scripts con Vite
+    cmd: npm run build
