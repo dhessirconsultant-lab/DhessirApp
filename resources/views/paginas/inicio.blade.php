@@ -1,4 +1,4 @@
-<x-layouts.app titulo="Asesoría de hoja de vida ATS y entrevistas">
+<x-layouts.app titulo="Consultoría de empleo">
     @include('secciones.hero')
     @include('secciones.diagnostico')
     @include('secciones.ats')

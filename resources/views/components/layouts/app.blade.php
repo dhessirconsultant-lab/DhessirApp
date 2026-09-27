@@ -1,5 +1,5 @@
 @props([
-    'titulo' => 'Asesoría de hoja de vida ATS y entrevistas',
+    'titulo' => 'Consultoría de empleo',
     'descripcion' => '¿Aplicas y no te llaman? Ajustamos tu hoja de vida a los filtros ATS y te preparamos para la entrevista. Agenda tu sesión gratuita de 30 minutos.',
 ])
 @php
@@ -26,7 +26,9 @@
     <meta property="og:title" content="{{ $titulo }} | Dhessir">
     <meta property="og:description" content="{{ $descripcion }}">
     <meta property="og:locale" content="es_CO">
+    <link rel="icon" href="{{ asset('images/favicon-32.png') }}" type="image/png" sizes="32x32">
     <link rel="icon" href="{{ asset('images/favicon.svg') }}" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ asset('images/favicon-180.png') }}">
     <script>document.documentElement.classList.add('js')</script>
     @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -179,7 +181,7 @@
                     <a href="https://tiktok.com/@dhessirco" target="_blank" rel="noopener" aria-label="Dhessir en TikTok" class="{{ $red }}">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M11.2 1.5h2.9c.2 1.9 1.6 3.4 3.5 3.6v2.9a6.6 6.6 0 01-3.5-1.1v6.1a5.4 5.4 0 11-5.4-5.4c.3 0 .6 0 .9.1v3a2.5 2.5 0 101.6 2.3V1.5z"/></svg>
                     </a>
-                    <a href="https://open.spotify.com/search/Dhessir" target="_blank" rel="noopener" aria-label="Podcast de Dhessir en Spotify" class="{{ $red }}">
+                    <a href="{{ config('dhessir.spotify') }}" target="_blank" rel="noopener" aria-label="Podcast de Dhessir en Spotify" class="{{ $red }}">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M10 1a9 9 0 100 18 9 9 0 000-18zm4.2 13.1a.7.7 0 01-.96.23c-2.64-1.61-5.96-1.97-9.86-1.08a.7.7 0 11-.31-1.37c4.28-.98 7.95-.56 10.9 1.25.33.2.44.63.23.97zm1.11-2.48a.88.88 0 01-1.2.29c-3.02-1.86-7.62-2.4-11.19-1.31a.88.88 0 11-.51-1.68c4.08-1.24 9.15-.64 12.62 1.5.41.25.54.79.28 1.2zm.1-2.58c-3.63-2.15-9.4-2.35-12.86-1.3a1.05 1.05 0 11-.61-2.02c3.98-1.2 10.35-.98 14.42 1.44a1.05 1.05 0 01-1.07 1.81z"/></svg>
                     </a>
                 </div>

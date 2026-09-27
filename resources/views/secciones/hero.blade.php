@@ -33,11 +33,10 @@
             </ul>
         </div>
 
-        {{-- Foto: Jerónimo Rocha. Pendiente reemplazar por una captura real de una sesión por videollamada. --}}
         <div class="relative animate-aparecer [animation-delay:150ms]">
-            <div class="relative aspect-[4/3] overflow-hidden rounded-marca bg-azul-900 shadow-2xl">
-                <img src="{{ asset('images/jeronimo.jpg') }}" alt="Jerónimo Rocha, consultor principal de Dhessir Consultant"
-                     width="600" height="800" fetchpriority="high" class="size-full object-cover object-[center_20%]">
+            <div class="group relative aspect-[3/2] overflow-hidden rounded-marca bg-azul-900 shadow-2xl">
+                <img src="{{ asset('images/hero-sesion.jpg') }}" alt="Candidata sonriendo durante una sesión diagnóstica por videollamada con un consultor"
+                     width="1408" height="768" fetchpriority="high" class="size-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-105">
             </div>
             <div class="absolute -bottom-6 left-4 flex animate-flotar items-center gap-3 rounded-marca border border-gris-200 bg-white px-4 py-3 shadow-2xl md:-left-6">
                 <span class="flex size-10 items-center justify-center rounded-full bg-teal-800/10">
