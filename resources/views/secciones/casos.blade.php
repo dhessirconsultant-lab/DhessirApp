@@ -30,9 +30,5 @@
                 </div>
             </dl>
         </article>
-
-        <p class="revelar mt-6 rounded-marca border-l-4 border-teal-500 bg-gris-50 p-6 text-sm leading-[1.55] text-gris-600">
-            <strong class="text-azul-900">Sobre esta sección:</strong> Dhessir es una consultoría joven. Tenemos un caso documentado, no una galería. Preferimos mostrar uno verificable antes que llenar la página con cifras que no podemos sustentar — y por eso el resto de la confianza de este sitio se apoya en el perfil público del consultor, en el podcast ya publicado y en que la primera sesión no te cuesta nada.
-        </p>
     </div>
 </section>

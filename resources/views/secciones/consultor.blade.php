@@ -6,8 +6,8 @@
             'nombre' => 'Jerónimo Rocha',
             'cargo' => 'Consultor principal · Dhessir Consultant',
             'foto' => 'images/jeronimo.jpg',
-            'bio' => 'Más de cuatro años en recursos humanos corporativo. Trabajó como generalista de RR.HH. en Concentrics, donde acompañó procesos de selección en múltiples sectores, dio coaching a directores y gerentes y desarrolló programas de liderazgo y comunicación efectiva. Ha estado del otro lado de la mesa: sabe qué descarta una hoja de vida antes de que alguien la lea completa y qué respuesta cierra una entrevista.',
-            'datos' => [['4+ años', 'En recursos humanos corporativo'], ['Selección', 'Procesos en múltiples sectores'], ['Bogotá', 'Atención 100 % virtual']],
+            'bio' => 'Tecnólogo con más de 5 años de experiencia en recursos humanos en compañías multinacionales. Como generalista de RR. HH. brindó coaching a directores y gerentes, desarrolló programas de liderazgo y comunicación efectiva, y acompañó procesos de selección en múltiples sectores. Hoy lleva ese conocimiento del sector a quienes más lo necesitan: universitarios y profesionales que buscan su próxima oportunidad.',
+            'datos' => [['5+ años', 'En recursos humanos en multinacionales'], ['Selección', 'Procesos en múltiples sectores'], ['Bogotá', 'Atención 100 % virtual']],
             'linkedin' => 'https://www.linkedin.com/in/dhessir',
         ],
     ];
